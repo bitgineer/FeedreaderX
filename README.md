@@ -1,0 +1,2 @@
+# FeedreaderX
+Python RSS Reader
