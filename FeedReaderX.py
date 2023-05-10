@@ -2,8 +2,8 @@ import asyncio
 import feedparser
 import discord
 
-RSS_FEED_URL  = "https://unlimitedhangout.com/feed/"
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/993283883682496662/6fTXOeseo_LkKEQ-_BpNph-TrKGaM12YJNa9eD2JVH_mHpdBFa0Q2nkrTlxj_pT2W-VD"
+RSS_FEED_URL  = ""
+DISCORD_WEBHOOK_URL = ""
 
 client = discord.Webhook.from_url(DISCORD_WEBHOOK_URL, adapter=discord.RequestsWebhookAdapter())
 
